@@ -18,9 +18,9 @@
 	
 			<header class="header">
 				<div class="conteiner">
-					<div class="header__left">
+					<div class="header__left"> // Не стоит привязоваться в классах к положению, цветам, размерам. Заказчик попросит переместить этот блок, и он перестанет быть слева. А класс останется, нехорошо.
 						<div class="user">
-							<div class="user__smallAvatar">
+							<div class="user__smallAvatar"> // Не используй верблюжий регистор в именах классов, в переменных js - велкам. А тут лучше пиши через нижнее подчеркивание: page_header. 
 								<img src="img/content/smallAvatar.jpg" alt="user-smallAvatar" class="user__avatar-pic">
 							</div>
 							<div class="user__name">
@@ -48,7 +48,7 @@
 			</header>
 		
 		<section class="section">
-			<div class="conteiner clearfix">
+			<div class="conteiner clearfix"> // Давай переходить на флексы? Флоаты - боль, флексы - прекрасно
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul class="nav__list">
