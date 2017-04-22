@@ -1,0 +1,46 @@
+.footer{
+	height: 50px;
+	background: #414141;
+	margin-top: -50px;
+	position: relative;
+	min-width: 940px;
+}
+
+.copyright{
+	position: absolute;
+	font-size: 14px;
+	top: 15px;
+}
+
+.social{
+	float: right;
+	margin-top: 10px;
+}
+
+.social__item{
+	display: inline-block;
+}
+
+.social__link{
+	display: block;
+	width: 31px;
+	height: 30px;
+	background: url(../../img/icon/socials.png);
+	background-repeat: no-repeat;
+}
+
+.social__link.social__link-fb {
+    background-position: 0 0;
+}
+
+.social__link.social__link-vk {
+    background-position: -100px 0;
+}
+
+.social__link.social__link-tw {
+    background-position: -200px 0;
+}
+
+.social__link:hover {
+    background-image: url("../../img/icon/socials-hover.png");
+}

@@ -1,0 +1,75 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family: "fira Sans";
+	background: #f6f6f6;
+  line-height: 1.42;
+}
+
+body{
+	margin: 0;
+	font: 1em/1.4em Fira Sans, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+*{
+	list-style: none;
+	box-sizing: border-box;
+}
+
+ul, p{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.wrapper:after{
+	content: "";
+	height: 50px;
+	display: block;
+}
+
+.conteiner{
+	width: 940px;
+	margin: 0 auto;	
+}
+
+.title{
+	font-family: "fira sans";
+	font-size: 35px;
+	color: #414141;
+	font-weight: 500;
+}
+
+.clear-fix::after,
+.clear-fix::before,
+.wrapper::after,
+.wrapper::before{
+  content: ' ';
+  display: table;
+}
+
+.clear-fix::after,
+.wrapper::after{
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}

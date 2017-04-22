@@ -6,88 +6,97 @@
 	<meta name="description" content="Личная страница Юмадилова Руслана">
 	<meta name="keywords" content="сайт, портфолио">
 	<meta name="author" content="Руслан Юмадилов">
-
-	<title>Давайте знакомиться</title>
 	<link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="css/about.css">
+	<title>Давайте знакомиться</title>
+	<link rel="stylesheet" href="css/layout/normalize.css">
+	<link rel="stylesheet" href="css/layout/fonts.css">
+	<link rel="stylesheet" href="css/layout/adjustment.css">
+	<link rel="stylesheet" href="css/layout/font-awesome.css">
+
+	<link rel="stylesheet" href="css/sections/header.css">
+	<link rel="stylesheet" href="css/sections/sidebar.css">
+  <link rel="stylesheet" href="css/sections/about.css">
+  <link rel="stylesheet" href="css/sections/footer.css">
 </head>
 
 <body>
 	<div class="wrapper">
-	
-			<header class="header">
-				<div class="conteiner">
-					<div class="header__left">
+
+	<!-- header -->
+
+			<header class="header clear-fix">
+				<div class="conteiner clear-fix">
+					<div class="user__wrapper">
 						<div class="user">
-							<div class="user__smallAvatar">
-								<img src="img/content/smallAvatar.jpg" alt="user-smallAvatar" class="user__avatar-pic">
+							<div class="user__small-avatar">
+								<img class="user__avatar-pic" src="img/content/small-avatar.jpg" alt="user-small-avatar">
 							</div>
 							<div class="user__name">
 							Руслан Юмадилов
 							</div>
 						</div>
-					</div>
-					<div class="header__right">
+					</div>	
+
+					<div class="contacts__wrapper">
 						<div class="contacts">
 							<a class="contacts__trigger" href="#">Мои контакты</a>
-							<ul class="contacts__dropdown">
-								<li class="contacts__dropdown-item">
-									<a href="" class="contacts__dropdown-link"></a>
-								</li>
-								<li class="contacts__dropdown-item">
-									<a href="" class="contacts__dropdown-link"></a>
-								</li>
-								<li class="contacts__dropdown-item">
-									<a href="" class="contacts__dropdown-link"></a>
-								</li>
-							</ul>
 						</div>
 					</div>
+
 				</div>
 			</header>
-		
+
+<!-- section -->
+
 		<section class="section">
-			<div class="conteiner clearfix">
+			<div class="conteiner clear-fix">
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul class="nav__list">
-							<li class="nav__item nav__item-active">
-								<a class="nav__link" href="index.html">
-									Обо мне
+							<li class="nav__item">
+								<a class="nav__link nav__item-active" href="index.html">
+									<i class="fa fa-user-secret nav__link-icon"></i>
+                  <span class="nav__link-text">Обо мне</span>
 								</a>
 							</li>
-							<li class="nav__item nav__item-active">
-								<a class="nav__link" href="#">
-									Карьерный путь
+							<li class="nav__item">
+								<a class="nav__link" href="career.html">
+									<i class="fa fa-rocket nav__link-icon"></i>
+                  <span class="nav__link-text">Карьерный путь</span>
 								</a>
 							</li>
-							<li class="nav__item nav__item-active">
-								<a class="nav__link" href="#">
-									Портфолио
+							<li class="nav__item">
+								<a class="nav__link" href="portfolio.html">
+									<i class="fa fa-briefcase nav__link-icon"></i>
+                  <span class="nav__link-text">Портфолио</span>
 								</a>
 							</li>
 						</ul>
 					</nav>
 				</aside>
-				<main class="staff">
-					<div class="about clearfix">
-						<div class="about__left">
+
+<!-- about -->
+
+				<main class="staff clear-fix">
+					<div class="about clear-fix">
+						<div class="about__pic_wrapper">
 							<div class="about__pic">
-								<img class="about__pic-item" src="img/content/bigAvatar.jpg" alt="bigAvatar">
+								<img class="about__pic-item" src="img/content/big-avatar.jpg" alt="big-avatar">
 							</div>	
 						</div>
-						<div class="about__right">
-							<h1 class="about__title">Обо мне</h1>
-							<div class="about__text text-block">
+						<div class="about__title_wrapper">
+							<h1 class="title about__title">Обо мне</h1>
+							<div class="about__text">
 								<p>Меня зовут Руслан, я живу в городе Уфа.</p>
 								<p>В настоящий момент прохожу обучение на курсах школы Loftschool, по предету <q>Веб разработка для начинающих</q>.</p>
 								<p>По окончании обучения планирую пройти курсы копирайтера, чтобы часами не придумывать текст для главной страницы сайта.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloremque quas et ipsa dolores aliquam quo modi, itaque labore nisi reiciendis dolorem natus ex. Sed architecto incidunt magni, eos officiis corporis! Autem, ut, nam enim ullam veniam error aut sit exercitationem cupiditate excepturi doloribus fuga dolorum necessitatibus mollitia, vitae similique saepe provident! Enim consequuntur laudantium perspiciatis atque accusantium, similique nemo consectetur facere odio sint vel corporis totam culpa cumque, soluta reprehenderit ipsa qui doloribus, sed labore? Ex sequi veritatis voluptatum officiis eveniet illo, quia omnis esse numquam quasi animi provident saepe minima nisi ab dolore magnam, quae ipsum laudantium veniam!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eius repudiandae cumque magnam itaque culpa veniam quas aspernatur iure sunt.</p>
 							</div>
 							<div class="about__download">
 								<a class="about__download-link" href="#" download>
-									Скачать резюме
+									<i class="fa fa-download about__download-link-icon"></i>
+									<span class="about__download-link-text">Cкачать резюме</span>
 								</a>
 							</div>
 						</div>
@@ -97,14 +106,14 @@
 		</section>
 	</div>			
 	
+<!-- footer -->
+
 	<footer class="footer">
-		<div class="conteiner  clearfix">
-			<div class="footer__left">
-				<div class="copyright">
-					&#169 Дизайн сайта был разработан в школе LoftSchool
-				</div>
+		<div class="conteiner clear-fix">
+			<div class="copyright">
+				&#169 Дизайн сайта был разработан в школе LoftSchool
 			</div>
-			<div class="footer__right">
+			<div class="social">
 				<ul class="social__list">
 					<li class="social__item">
 						<a class="social__link social__link-fb" href="#"></a>
