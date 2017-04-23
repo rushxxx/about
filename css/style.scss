@@ -1,0 +1,13 @@
+/*  layout setup  */
+@import "layout/normalize.css";
+@import "layout/adjustment.css";
+@import "layout/fonts.css";
+@import "layout/font-awesome.css";
+
+/*  section  */
+@import "sections/header.scss";
+@import "sections/sidebar.scss";
+@import "sections/about.scss";
+@import "sections/portfolio.scss";
+@import "sections/career.scss";
+@import "sections/footer.scss";

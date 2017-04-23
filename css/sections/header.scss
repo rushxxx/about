@@ -1,0 +1,61 @@
+.header{
+	height: 80px;
+	background: #fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 3px;
+}
+
+.user{
+	height: 80px;
+
+	&__wrapper{
+		float: left;
+		width: 50%;
+		height: 80px;
+	}
+
+	&__small-avatar{
+		float: left;
+		padding: 8px 0;
+	}
+
+	&__avatar-pic{
+		border-radius: 50%;
+		border: 2px solid #d0d0d0;
+		display: block;
+	}
+
+	&__name{
+		color: #414141;
+		float: left;
+		font-size: 18px;
+		margin: 30px 20px;
+	}
+}
+
+.contacts{
+	text-align: right;
+	margin-top: 30px;
+
+	&__wrapper{
+		float: right;
+		width: 50%;
+		height: 80px;
+		text-align: center;
+	}
+
+	&__trigger{
+		color: #32c3e5;
+		font-size: 18px;
+		line-height: 1.556;
+		font-weight: bold;
+		text-decoration: none;
+		padding-bottom: 7px;
+		background: url(../../img/decor/dotted_border.png) 0 18px repeat-x;
+	
+		&:hover{
+			color: #e85f61;
+			background: url(../../img/decor/dotted_border_red.png) 0 18px repeat-x;
+		}
+	}
+}
