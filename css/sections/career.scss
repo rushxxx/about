@@ -6,6 +6,7 @@
 
 	&__title{
 		width: 720px;
+		margin-bottom: 18px;
 	}
 
 	&__wrapper{
@@ -29,9 +30,44 @@
 		width: 480px;
 	}
 
+/*  li  */
+
 	&__item{
 		padding-left: 100px;
 		position: relative;
+
+		&-wrapper{
+			right: 0;
+		  border-radius: 10px;
+		  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+		  width: 380px;
+		  padding: 16px 21px 14px 21px;
+		  margin-bottom: 20px;
+		  background: #fff;
+			position: relative;
+		}
+
+		&:hover{
+			& .career__item-wrapper{
+				background: #33c1e3;
+			}
+
+			& .career__company, & .career__post, & .career__period{
+				color: #fff;
+			}
+
+			& .career__year{
+				color: #33c1e3;
+				font-size: 18px;
+				font-weight: 600;
+
+				&:after{
+					border-color: #94e0f2;
+				}
+			}
+		}
+
+/* timeline */
 
 		&:after, &:before{
 			content: "";
@@ -56,59 +92,21 @@
 			top: 50%;
 			bottom: -25px;
 		}
+
+		
 	}
 }
 
-.career__item:hover{
-	& .item__wrapper{
-		background: #33c1e3;
-	}
-
-	& .career__company{
-		color: #fff;
-	}
-
-	& .career__post{
-		color: #fff;
-	}
-
-	& .career__period{
-		color: #fff;
-	}
-
-	& .career__year{
-		color: #33c1e3;
-		font-size: 18px;
-		font-weight: 600;
-
-		&:after{
-			border-color: #94e0f2;
-		}
-	}
-}
-
-.item__wrapper{
-	right: 0;
-  border-radius: 10px;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  width: 380px;
-  padding: 20px;
-  margin-bottom: 20px;
-  background: #fff;
-	position: relative;
-}
+/*  career bloks content  */
 
 .career{
 	&__company{
-		font-weight: 500;
+		font-size: 21px;
 		color: #5a5a5a;
 	}
 
-	&__post{
-		color: #8a8a8a;
-	}
-
-	&__period{
+	&__post, &__period{
+		font-weight: 300;
 		color: #8a8a8a;
 	}
 

@@ -15,32 +15,32 @@
 .social{
 	float: right;
 	margin-top: 10px;
-}
 
-.social__item{
-	display: inline-block;
-}
+	&__item{
+		display: inline-block;
+	}
 
-.social__link{
-	display: block;
-	width: 31px;
-	height: 30px;
-	background: url(../../img/icon/socials.png);
-	background-repeat: no-repeat;
-}
+	&__link{
+		display: block;
+		width: 31px;
+		height: 30px;
+		background: url(../img/icon/socials.png);
+		background-repeat: no-repeat;
 
-.social__link.social__link-fb {
-    background-position: 0 0;
-}
+		&-fb {
+	    background-position: 0 0;
+		}
 
-.social__link.social__link-vk {
-    background-position: -100px 0;
-}
+		&-vk {
+	    background-position: -101px 0;
+		}
 
-.social__link.social__link-tw {
-    background-position: -200px 0;
-}
+		&-tw {
+	    background-position: -201px 0;
+		}
 
-.social__link:hover {
-    background-image: url("../../img/icon/socials-hover.png");
+		&:hover {
+	    background-image: url("../img/icon/socials-hover.png");
+		}
+	}
 }

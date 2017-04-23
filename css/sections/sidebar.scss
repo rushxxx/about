@@ -5,11 +5,11 @@
 
 .nav{
 	text-align: right;
-	margin-top: 25px;
+	margin-top: 27px;
 
 	&__link{
 		display: block;
-		padding: 10px 20px;
+		padding: 10px 23px;
 		color: #414141;
 		text-decoration: none;
 	  border-right: 6px solid transparent;
@@ -17,6 +17,10 @@
 
 	  &:hover{
 			color: #33c1e3;
+		}
+
+		&-icon{
+			margin-right: 4px;
 		}
 	}
 }

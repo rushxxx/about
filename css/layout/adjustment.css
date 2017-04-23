@@ -1,14 +1,17 @@
 html, body{
 	width: 100%;
 	height: 100%;
-	font-family: "fira Sans";
-	background: #f6f6f6;
-  line-height: 1.42;
+
 }
 
 body{
 	margin: 0;
-	font: 1em/1.4em Fira Sans, Tahoma, Arial, Helvetica, sans-serif;
+	font-family: "fira", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+  line-height: 1.42;
+  color: #646464;
+  -webkit-font-smoothing: antialiased;
+  background: #f6f6f6;
 }
 
 *{

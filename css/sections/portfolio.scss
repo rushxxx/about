@@ -5,6 +5,7 @@
 
 	&__title{
 		padding-left: 20px;
+		margin-bottom: 17px;
 	}
 
 	&__list{
@@ -43,7 +44,7 @@
 	&__desc{
 		width: 220px;
 		background: #fff;
-		padding: 20px;
+		padding: 16px 20px 16px 17px;
 		display: flex;
 		flex-direction: column;
 
@@ -54,18 +55,22 @@
 
 		&-content{
 			font-size: 14px;
+			font-weight: 300;
 			color: #414141;
+			margin-left: 3px;
 		}
 
 		&-type{
 			font-weight: 500;
 			font-size: 14px;
 			color: #aeaeae;
-			margin-top: 10px;
+			margin: 11px 20px 0 3px;
+
+			&_icon{
+				font-size: 18px;
+				margin-right: 3px;
+			}
 		}
 	}
 }
 
-.fa{
-	font-size: 18px;
-}
