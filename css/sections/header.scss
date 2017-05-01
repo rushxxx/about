@@ -6,10 +6,11 @@
 
 .user{
 	height: 80px;
+	position: relative;
 
 	&__wrapper{
 		float: left;
-		width: 50%;
+		width: 80%;
 		height: 80px;
 	}
 
@@ -28,33 +29,48 @@
 	}
 
 	&__name{
+		position: absolute;
 		float: left;
-		margin: 30px 19px;
+		top: 50%;
+		left: 84px;
+		transform: translateY(-50%);
 	}
 }
 
 .contacts{
 	text-align: right;
-	margin-top: 30px;
 
 	&__wrapper{
 		float: right;
-		width: 50%;
-		height: 80px;
+		width: 20%;
 		text-align: center;
 	}
 
 	&__trigger{
+		height: 40px;
+		border: none;
 		color: #32c3e5;
-		line-height: 1.556;
-		font-weight: bold;
-		text-decoration: none;
-		padding-bottom: 7px;
-		background: url(../../img/decor/dotted_border.png) 0 22px repeat-x;
+		font-family: "fira";
+		font-size: 18px;
+		font-weight: 500;
+		background-color:  transparent;
+		background: url(../img/decor/dotted_border.png) 0 30px no-repeat;
+		margin-top: 20px;
+		padding: 0;
 	
 		&:hover{
 			color: #e85f61;
-			background: url(../../img/decor/dotted_border_red.png) 0 22px repeat-x;
+			background: url(../img/decor/dotted_border_red.png) 0 30px no-repeat;
+		}
+
+		&-text{
+			display: inline-block;
+		}
+
+		&-icon{
+			display: inline-block;
+			// transform: translateX(-9999px);
+			display: none;
 		}
 	}
 }

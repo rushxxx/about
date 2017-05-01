@@ -1,6 +1,7 @@
 .sidebar{
 	float: left;
 	width: 220px;
+	min-width: 220px;
 }
 
 .nav{
@@ -8,12 +9,14 @@
 	margin-top: 27px;
 
 	&__link{
+
 		display: block;
 		padding: 10px 23px;
 		color: #414141;
-		text-decoration: none;
+		// text-decoration: none;
 	  border-right: 6px solid transparent;
-	  font-size: 18px;
+	  // font-size: 18px;
+	 
 
 	  &:hover{
 			color: #33c1e3;

@@ -8,13 +8,14 @@
 	float: left;
 	width: 220px;
 	margin: 29px 60px;
-	border-radius: 50%;
-	border: 2px solid #fff;
-	overflow: hidden;
 	}
 
 	&__pic-item {
   display: block;
+  width: 220px;
+  border-radius: 50%;
+	border: 2px solid #fff;
+	overflow: hidden;
 	}
 
 	&__title_wrapper{
@@ -33,30 +34,26 @@
   font-weight: 300;
 	}
 
-	&__download{
-	width: 173px;
-  height: 40px;
-  float: right;
-	text-align: center;
-	margin: 58px 0;
-	padding-top: 5px;
-	border: 2px solid #e85f61;
-	border-radius: 30px;
-	}
-
 	&__download-link{
+		width: 173px;
+	  height: 40px;
+	  float: right;
+		margin: 58px 0;
+		padding-top: 9px;
+		border: 2px solid #e85f61;
+		border-radius: 30px;
 		font-size: 16px;
 		font-weight: 600;
 		color: #e85f61;
 
 		&:hover{
-		background: #e85f61;
-		color: #f6f6f6;
+			background: #e85f61;
+			color: #f6f6f6;
 		}
 
 		&-icon{
 			font-size: 14px;
-			margin-right: 8px;
+	    margin: 0 5px 0 13px;
 		}
 	}
 }

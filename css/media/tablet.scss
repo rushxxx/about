@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px){
+	.wrapper:after{
+	content: "";
+	height: 95px;
+	display: block;
+}
+
+	.conteiner{
+		width: 480px;
+		margin: 0 auto;	
+		overflow: hidden;
+	}
+	
+	.contacts{
+		&__trigger{
+		background: none;
+
+			&:hover{
+				background: none;
+			}
+
+			&-text{
+				// transform: translateX(-9999px);
+				display: none;
+			}
+
+			&-icon{
+				display: block;
+				font-size: 40px;
+				padding-right: 1px;
+				// float: right;
+			}
+		}
+	}
+
+	.sidebar{
+		float: none;
+		width: 100%;
+	}
+
+	.nav{
+		text-align: left;
+		margin-top: 19px;
+
+		&__item{
+			display: inline-block;
+		}
+
+		&__link{
+			border: none;
+			padding: 10px 24px 10px 0;
+		}
+	}
+
+	.staff{
+		width: 100%;
+	}
+
+	.title{
+			// width: 480px;
+			margin: 0;
+			text-align: center;
+		}
+
+	.about{
+		width: 100%;
+		
+		&__pic_wrapper{
+			float: none;
+			margin: 0 auto;
+		}
+
+		&__pic{
+			width: 184px;
+			height: 184px;
+		}
+
+		&__pic-item{
+			width: 174px;
+			margin: 28px 0 0 2px;
+			border: 5px solid #fff;
+		}
+
+		&__title_wrapper{
+			width: 100%;
+			float: none;
+			margin: 0;
+		}
+
+		&__text{
+			height: 363px;
+			margin: 0 0 0 20px;
+		}
+
+		&__download-link{
+			margin: 37px auto;
+			float: none;
+			display: block;
+		}
+	}
+	
+	.career{
+		&__wrapper{
+			// width: 480px;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 20px;
+		}
+
+		&__pic{
+			height: 225px;
+		}
+
+		&__list{
+			// width: 440px;
+		}
+
+		&__title{
+			margin: 24px -2px 20px;
+		}
+
+		&__item{
+			padding: 0;
+
+			&-wrapper{
+				width: 100%;
+				margin: 20px 0;
+			}
+		}
+
+		&__item:after, &__item:before, &__year, &__year:after{
+			display: none;
+		}
+	}
+
+	.portfolio{
+		&__item{
+			width: calc(100% / 2 - 20px);
+		}
+	}
+
+	.footer{
+		min-width: 480px;
+		height: 95px;
+		margin: -95px auto;
+	}
+
+	.copyright{
+		letter-spacing: normal;
+		position: relative;
+		display: block;
+		text-align: center;
+	}
+
+	.social{
+		float: none;
+		display: block;
+		text-align: center;
+		margin-top: 25px;
+	}
+
+}
