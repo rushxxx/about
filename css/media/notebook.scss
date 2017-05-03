@@ -5,6 +5,10 @@
 		margin: 0 auto;	
 	}
 
+.contacts__trigger:hover .contacts__list-wrapper{
+			transform: translate(-83px, 20px)
+		}
+
 	.staff{
 		width: 100%;
 	}

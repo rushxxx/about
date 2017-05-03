@@ -8,7 +8,6 @@
 	.conteiner{
 		width: 480px;
 		margin: 0 auto;	
-		overflow: hidden;
 	}
 	
 	.contacts{
@@ -17,10 +16,14 @@
 
 			&:hover{
 				background: none;
+
+				& .contacts__list-wrapper{
+					transform: translate(-171px, 5px);
+				}
 			}
 
+
 			&-text{
-				// transform: translateX(-9999px);
 				display: none;
 			}
 
@@ -28,9 +31,12 @@
 				display: block;
 				font-size: 40px;
 				padding-right: 1px;
-				// float: right;
 			}
 		}
+	}
+
+	.triangle, .triangle-fill{
+		right: 10%;
 	}
 
 	.sidebar{

@@ -39,6 +39,7 @@
 
 .contacts{
 	text-align: right;
+	position: relative;
 
 	&__wrapper{
 		float: right;
@@ -63,16 +64,90 @@
 			background: url(../img/decor/dotted_border_red.png) 0 30px no-repeat;
 		}
 
+		&:focus{
+			outline: none;
+		}
+
+		&:hover .contacts__list-wrapper{
+			transform: translate(-42px, 20px)
+		}
+
 		&-text{
 			display: inline-block;
 		}
 
 		&-icon{
 			display: inline-block;
-			// transform: translateX(-9999px);
 			display: none;
 		}
 	}
+
+	&__list-wrapper{
+		width: 205px;
+		height: 130px;
+		border: 1px solid #dedede;
+		border-radius: 10px;
+		background: #fff;
+		position: absolute;
+		z-index: 10;
+		transform: translate(-9999px, 20px);
+
+		&:before{
+			content: "";
+			height: 30px;
+			left: 0;
+			right: 0;
+			top: -29px;
+			position: absolute;
+		}
+	}
+
+
+	&__item{
+		font-size: 18px;
+		font-weight: 300;
+		color: #414141;
+		line-height: 43px;
+		text-align: left;
+		padding-left: 12px;
+		border-bottom: 1px solid #dedede;
+
+		&:hover .contacts__item-icon, &:hover .contacts__item-text{
+			color: #32c3e5;
+			font-weight: 500;
+		}
+
+
+		&-icon{
+			color: #32c3e5;
+		}
+
+		&:last-child{
+			border-bottom: none;
+		}
+	}
+}
+
+.triangle{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #dedede;
+  bottom: 129px;
+  right: calc(50% - 10px);
+}
+
+.triangle-fill{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #fff;
+  bottom: 128px;
+  right: calc(50% - 10px);
 }
 
 
