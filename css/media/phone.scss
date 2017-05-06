@@ -1,4 +1,8 @@
 @media screen and (max-width: 480px){
+	.hello{
+		width: calc(100% - 60px);
+	}
+
 	.wrapper{
 		width: 100%;
 	}

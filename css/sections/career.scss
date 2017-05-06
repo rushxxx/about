@@ -1,11 +1,9 @@
 .career{
-	// width: 720px;
 	display: flex;
 	flex-direction: column;
 	padding-left: 20px;
 
 	&__title{
-		// width: 720px;
 		margin-bottom: 18px;
 	}
 
@@ -41,11 +39,11 @@
 			right: 0;
 		  border-radius: 10px;
 		  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-		  // width: 380px;
 		  padding: 16px 21px 14px 21px;
 		  margin-bottom: 20px;
 		  background: #fff;
 			position: relative;
+			transition: all .4s;
 		}
 
 		&:hover{
@@ -93,8 +91,6 @@
 			top: 50%;
 			bottom: -25px;
 		}
-
-		
 	}
 }
 
