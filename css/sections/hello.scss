@@ -78,11 +78,22 @@
 		left: 50%;
 		margin-left: -70px;
 		margin-top: -20px;
+
+		&:hover{
+			background-color: #fff;
+		}
+
+		&:hover .hello__button-link{
+			color: #33c1e3;
+
+		}
 	}
+
 
 	&__button-link{
 		line-height: 40px;
 		color: #fff;
+		font-weight: 600;
 	}
 }
 

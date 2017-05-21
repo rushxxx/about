@@ -8,6 +8,7 @@
 	.conteiner{
 		width: 480px;
 		margin: 0 auto;	
+		padding: 0 20px;
 	}
 	
 	.contacts{
@@ -53,7 +54,7 @@
 
 		&__link{
 			border: none;
-			padding: 10px 24px 10px 0;
+			padding: 10px 15px 10px 0;
 		}
 	}
 
@@ -140,8 +141,18 @@
 	}
 
 	.portfolio{
+
+		&__list{
+			width: 100%;
+			margin: 0;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
 		&__item{
-			width: calc(100% / 2 - 20px);
+			width: calc(100% / 2 - 10px);
+			margin: 10px 0;
+		
 		}
 	}
 

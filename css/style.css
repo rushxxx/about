@@ -92,11 +92,7 @@
     color: #414141;
     line-height: 43px;
     text-align: left;
-    padding-left: 12px;
-    border-bottom: 1px solid #dedede; }
-    .contacts__item:hover .contacts__item-icon, .contacts__item:hover .contacts__item-text {
-      color: #32c3e5;
-      font-weight: 500; }
+    padding-left: 12px; }
     .contacts__item-icon {
       color: #32c3e5; }
     .contacts__item:last-child {
@@ -472,9 +468,14 @@ p {
     left: 50%;
     margin-left: -70px;
     margin-top: -20px; }
+    .hello__button:hover {
+      background-color: #fff; }
+    .hello__button:hover .hello__button-link {
+      color: #33c1e3; }
   .hello__button-link {
     line-height: 40px;
-    color: #fff; }
+    color: #fff;
+    font-weight: 600; }
 
 @-webkit-keyframes bounceIn {
   from, 20%, 40%, 60%, 80%, to {
@@ -605,7 +606,8 @@ p {
     display: block; }
   .conteiner {
     width: 480px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 0 20px; }
   .contacts__trigger {
     background: none; }
     .contacts__trigger:hover {
@@ -632,7 +634,7 @@ p {
       display: inline-block; }
     .nav__link {
       border: none;
-      padding: 10px 24px 10px 0; }
+      padding: 10px 15px 10px 0; }
   .staff {
     width: 100%; }
   .title {
@@ -684,8 +686,18 @@ p {
         margin: 20px 0; }
     .career__item:after, .career__item:before, .career__year, .career__year:after {
       display: none; }
+  .portfolio__list {
+    width: 100%;
+    margin: 0;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
   .portfolio__item {
-    width: calc(100% / 2 - 20px); }
+    width: calc(100% / 2 - 10px);
+    margin: 10px 0; }
   .footer {
     min-width: 480px;
     height: 95px;
