@@ -456,26 +456,23 @@ p {
     background-color: #33c1e3;
     position: relative;
     border-radius: 0 0 10px 10px; }
-  .hello__button {
+  .hello__link {
     width: 140px;
     height: 40px;
     font-size: 14px;
     border: 2px solid #fff;
     border-radius: 40px;
-    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-left: -70px;
-    margin-top: -20px; }
-    .hello__button:hover {
-      background-color: #fff; }
-    .hello__button:hover .hello__button-link {
-      color: #33c1e3; }
-  .hello__button-link {
-    line-height: 40px;
+    margin-top: -20px;
+    line-height: 38px;
     color: #fff;
     font-weight: 600; }
+    .hello__link:hover {
+      background-color: #fff;
+      color: #33c1e3; }
 
 @-webkit-keyframes bounceIn {
   from, 20%, 40%, 60%, 80%, to {
