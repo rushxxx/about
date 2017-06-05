@@ -710,7 +710,7 @@ p {
     text-align: center;
     margin-top: 25px; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
   .hello {
     width: calc(100% - 60px); }
   .wrapper {
